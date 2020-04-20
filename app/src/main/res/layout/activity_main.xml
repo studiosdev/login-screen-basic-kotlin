@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginStart="40dp"
+    android:layout_marginEnd="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:inputType="textEmailAddress"
+        android:hint="Ingresar tu correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:inputType="textPassword"
+        android:layout_marginTop="8dp"
+        android:hint="Ingresar tu contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_marginTop="32dp"
+        android:text="Ingresar"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
